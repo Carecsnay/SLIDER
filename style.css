@@ -60,7 +60,7 @@ a:hover {
 
 .slider--controls {
   position: absolute;
-  z-index: 90;
+  z-index: 99;
   width: 100%;
   display: flex;
   justify-content: space-between;
