@@ -14,10 +14,6 @@ header {
   height: 100vh;
 }
 
-.header {
-  height: 50px;
-}
-
 .slider {
   flex: 1;
   overflow: hidden;
@@ -34,11 +30,37 @@ header {
   height: inherit;
   background-position: center;
   background-size: cover;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+  align-items: center;
+
+  color: white;
+  font-weight: bold;
+  font-size: calc(4 * 5px);
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  position: relative;
+  z-index: 100;
+}
+
+a:hover {
+  color: orange;
 }
 
 .slider--controls {
   position: absolute;
-  z-index: 99;
+  z-index: 90;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -47,7 +69,7 @@ header {
 
 .slider--control {
   width: 120px;
-  height: calc(100vh - 50px);
+  height: calc(100vh);
   color: white;
   background-color: rgba(0, 0, 0, 0.5);
   overflow: hidden;
