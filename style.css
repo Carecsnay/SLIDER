@@ -60,11 +60,12 @@ a:hover {
 
 .slider--controls {
   position: absolute;
-  z-index: 99;
+  z-index: 5;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: transparent;
 }
 
 .slider--control {
