@@ -1,5 +1,3 @@
-Aqui está o **README.md** ajustado ao modelo que você enviou:  
-
 # Slider de Imagens com JavaScript
 
 Este projeto é um exemplo de slider de imagens implementado com JavaScript puro. Ele permite navegar manualmente entre diferentes slides e apresenta informações associadas a cada imagem.
