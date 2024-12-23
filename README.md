@@ -43,12 +43,6 @@ Confira o projeto em funcionamento clicando no link abaixo:
 
 ![download](https://github.com/user-attachments/assets/d46794e5-c164-4719-a615-65033f870e80)
 
-## Melhorias Futuras
-
-- Adicionar navegação automática entre os slides.
-- Incluir indicadores de slide ativo (ex.: pontos ou barras).
-- Melhorar a acessibilidade com suporte a teclado e leitor de tela.
-
 ## Autor
 
 Criado por Bruno Benicio. Sinta-se à vontade para contribuir ou enviar sugestões!
